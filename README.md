@@ -1,3 +1,7 @@
+> [!CAUTION]
+> Before reporting a bug please check the [known issues](https://contracts.polkadot.io/known_issues/).
+> Please **don't** open issues for support question. Instead, go to [our Discord](https://discord.gg/bKza3GEBEA) for that.
+
 # Contracts on AssetHub Bug Tracker
 
 The contract solution on AssetHub consists of many components. The repository
