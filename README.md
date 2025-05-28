@@ -4,7 +4,7 @@
 
 # Bug Tracker for Contracts on Polkadot Hub 
 
-The contract solution on AssetHub consists of many components. The repository
+The contract solution on Polkadot Hub consists of many components. The repository
 exists so that users and developers have a single point of contact to report
 issues.
 
