@@ -2,7 +2,7 @@
 > Before reporting a bug please check the [known issues](https://contracts.polkadot.io/known_issues/).
 > Please **don't** open issues for support question. Instead, [get in touch](https://contracts.polkadot.io/#get-in-touch) with us for that.
 
-# Contracts on AssetHub Bug Tracker
+# Bug Tracker for Contracts on Polkadot Hub 
 
 The contract solution on AssetHub consists of many components. The repository
 exists so that users and developers have a single point of contact to report
