@@ -10,3 +10,5 @@ issues.
 
 Issues reported here will then either be moved to the correct component or turned
 into meta issues in case they impact multiple components.
+
+[GH Project link](https://github.com/orgs/paritytech/projects/198/views/11)
