@@ -1,0 +1,48 @@
+name: Bug Report
+description: Report a bug or issue with smart contracts
+title: "[Bug]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+        ## Testing Tips
+
+        Before submitting, we encourage you to use the testing and debugging tools from [contracts-boilerplate](https://github.com/paritytech/contracts-boilerplate#testing-tips):
+
+        ### Recording and Replaying RPC Requests
+
+        You can record all write transactions to help reproduce bugs and verify fixes:
+
+        1. **Record transactions** when running eth-rpc:
+           ```sh
+           eth-rpc run ws://localhost:9944 --record
+           ```
+           This will save all `eth_sendRawTransaction` requests to `/tmp/eth-rpc-requests.log`
+
+        2. **Replay recorded transactions** to reproduce the issue:
+           ```sh
+           ./scripts/run-all.sh
+           ```
+           This replays all recorded requests and displays success/failure status.
+
+        This makes reproducing bugs much simpler and helps verify that fixes work correctly!
+
+        For more testing resources, see the [contracts-boilerplate README](https://github.com/paritytech/contracts-boilerplate#testing-tips).
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue Details
+      description: |
+        Please describe the issue and provide steps to reproduce.
+
+        **If you used `--record` mode, please attach the `/tmp/eth-rpc-requests.log` file**
+      placeholder: |
+        Describe the issue, steps to reproduce, and any relevant context.
+
+        If you used --record mode, drag and drop the /tmp/eth-rpc-requests.log file here.
+    validations:
+      required: true
